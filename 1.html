@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<title> WEB1 - HTML </title>
+<meta charset="utf-8">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1QP2QGR05H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1QP2QGR05H');
+</script>
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+<!-- 아래 문장 모두는 '본문=body'이다. 위에는 본문을 설명하는=head 단락이다. 이 모든걸 감싸는 최고위층 태그는 html-->
+<ol>
+  <li><a href="1.html">HTML</a></li>
+  <li><a href="2.html">CSS</a></li>
+  <li><a href="3.html">JavaScript</a></li>
+</ol>
+<!-- ul(unordered list, ol= orederd list)은 부모태그다.  -->
+<ul>
+  <li>jiye</li>
+  <li>minsu</li>
+  <li>bora</li>
+</ul>
+
+<h2>HTML이란 무엇인가?</h2>
+<p><a href="https://www.w3.org/TR/html52/" taget="_blank" title="html5 specification">Hypertext Markup Language (HTML)</a>
+  is the standard markup language for creating web pages and web applications.
+Hypertext kkkkkkkk <strong> creating <u> web </u>
+  pages </strong> and web applications.
+  <img src="sea.jpg" width="100%">
+  </p><p style="margin-top:45px;">Each individual piece markup code
+    (which would fall between "<" and ">" characters) is referred to as an element,
+    though many people also refer to it as a tag. Some elements come in pairs that indicate
+    when some display effect is to begin and when it is to end.
+</p>
+<!-- 아래는 댓글기능임. 1.html 에다가 댓글기능 추가했다. 웹에서 실행할 때 항상 wamp-> apache2-> htdocs의
+폴더에 파일 저장해야 웹페이지에 적용된다! -->
+<p>
+  <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://web1-s50kzhocfm.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p>
+</body>
+</html>
